@@ -10,7 +10,6 @@ public class Main : Node
 	//string[] Roots = new string[] {"res://Root/MainMenu.tscn", "res://Root/Map_0.tscn"};
 	Dictionary<string, string> Roots = new Dictionary<string, string>();
 	string CurRoot = "MainMenu";
-	public Node TreeRoot
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
@@ -20,9 +19,9 @@ public class Main : Node
 		GD.Print(Roots["MainMenu"]);
 	}
 	
-	static public void SetRoot(string NewRoot)
+	public void SetRoot(string NewRoot)
 	{
-		TreeRoot.ChangeScene(Roots[NewRoot]);
+		GetTree().ChangeScene(Roots[NewRoot]);
 		CurRoot = NewRoot;
 	}
 }
