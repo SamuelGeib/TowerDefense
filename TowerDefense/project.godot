@@ -16,8 +16,8 @@ config/icon="res://icon.png"
 
 [autoload]
 
-Main="*res://Singleton/Main.cs"
-Res="*res://Singleton/Res.cs"
+Main="*res://Script/Singleton/Main.cs"
+Res="*res://Script/Singleton/Res.cs"
 
 [physics]
 

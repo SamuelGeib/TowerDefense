@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\penul\\Documents\\GitKraken\\TowerDefense\\TowerDefense\\TowerDefense.csproj": {}
+    "C:\\Users\\skept\\Desktop\\Projects\\TowerDefense\\TowerDefense\\TowerDefense.csproj": {}
   },
   "projects": {
-    "C:\\Users\\penul\\Documents\\GitKraken\\TowerDefense\\TowerDefense\\TowerDefense.csproj": {
+    "C:\\Users\\skept\\Desktop\\Projects\\TowerDefense\\TowerDefense\\TowerDefense.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\penul\\Documents\\GitKraken\\TowerDefense\\TowerDefense\\TowerDefense.csproj",
+        "projectUniqueName": "C:\\Users\\skept\\Desktop\\Projects\\TowerDefense\\TowerDefense\\TowerDefense.csproj",
         "projectName": "TowerDefense",
-        "projectPath": "C:\\Users\\penul\\Documents\\GitKraken\\TowerDefense\\TowerDefense\\TowerDefense.csproj",
-        "packagesPath": "C:\\Users\\penul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\penul\\Documents\\GitKraken\\TowerDefense\\TowerDefense\\.mono\\temp\\obj\\",
+        "projectPath": "C:\\Users\\skept\\Desktop\\Projects\\TowerDefense\\TowerDefense\\TowerDefense.csproj",
+        "packagesPath": "C:\\Users\\skept\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\skept\\Desktop\\Projects\\TowerDefense\\TowerDefense\\.mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\penul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\skept\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,11 +25,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\penul\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net472": {
+            "targetAlias": "net472",
             "projectReferences": {}
           }
         },
@@ -38,7 +41,8 @@
       },
       "frameworks": {
         "net472": {
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.421\\RuntimeIdentifierGraph.json"
+          "targetAlias": "net472",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

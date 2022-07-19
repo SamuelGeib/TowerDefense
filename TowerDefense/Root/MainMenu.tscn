@@ -1,4 +1,6 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Script/PlayButton.cs" type="Script" id=1]
 
 [sub_resource type="DynamicFontData" id=1]
 font_path = "res://Res/Fonts/Nunito-VariableFont_wght.ttf"
@@ -22,3 +24,6 @@ margin_right = 100.0
 margin_bottom = 25.0
 custom_fonts/font = SubResource( 2 )
 text = "Play Game"
+script = ExtResource( 1 )
+
+[connection signal="pressed" from="Button" to="Button" method="_on_Button_pressed"]

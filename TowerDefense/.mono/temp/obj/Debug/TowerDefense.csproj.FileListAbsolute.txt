@@ -6,3 +6,9 @@ C:\Users\penul\Documents\GitKraken\TowerDefense\TowerDefense\.mono\temp\bin\Debu
 C:\Users\penul\Documents\GitKraken\TowerDefense\TowerDefense\.mono\temp\bin\Debug\TowerDefense.pdb
 C:\Users\penul\Documents\GitKraken\TowerDefense\TowerDefense\.mono\temp\obj\Debug\TowerDefense.dll
 C:\Users\penul\Documents\GitKraken\TowerDefense\TowerDefense\.mono\temp\obj\Debug\TowerDefense.pdb
+C:\Users\skept\Desktop\Projects\TowerDefense\TowerDefense\.mono\temp\obj\Debug\TowerDefense.csprojAssemblyReference.cache
+C:\Users\skept\Desktop\Projects\TowerDefense\TowerDefense\.mono\temp\obj\Debug\TowerDefense.AssemblyInfoInputs.cache
+C:\Users\skept\Desktop\Projects\TowerDefense\TowerDefense\.mono\temp\obj\Debug\TowerDefense.AssemblyInfo.cs
+C:\Users\skept\Desktop\Projects\TowerDefense\TowerDefense\.mono\temp\obj\Debug\TowerDefense.csproj.CoreCompileInputs.cache
+C:\Users\skept\Desktop\Projects\TowerDefense\TowerDefense\.mono\temp\obj\Debug\TowerDefense.dll
+C:\Users\skept\Desktop\Projects\TowerDefense\TowerDefense\.mono\temp\obj\Debug\TowerDefense.pdb
