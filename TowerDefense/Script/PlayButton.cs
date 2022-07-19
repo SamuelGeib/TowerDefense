@@ -1,9 +1,7 @@
 using Godot;
 using System;
 
-
-
-public class PlayButton : Button
+public class PlayButton : Node
 {
 	// Declare member variables here. Examples:
 	// private int a = 2;
@@ -14,17 +12,17 @@ public class PlayButton : Button
 	{
 		
 	}
-
+	
+	public void _on_Button_pressed()
+	{
+		string NewMap = "Map_0";
+		GetNode<Main>("/root/Main").SetRoot(NewMap);
+	}
 //  // Called every frame. 'delta' is the elapsed time since the previous frame.
 //  public override void _Process(float delta)
 //  {
 //      
 //  }
-
-	private void _on_Button_pressed()
-	{
-		GetNode<PlayerVariables>(nodePath).SetRoot("Map_0");
-	}
 }
 
 
