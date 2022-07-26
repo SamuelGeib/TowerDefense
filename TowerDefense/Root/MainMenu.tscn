@@ -11,7 +11,17 @@ font_data = SubResource( 1 )
 script/source = "extends Node
 
 func _on_Button_pressed():
-	Main.SetRoot(\"Map_0\")
+	randomize()
+	var NMapData = MapData.new()
+	var Width  = randi() % 50 + 1
+	var Height = randi() % 40 + 1
+	NMapData.TileData.resize(Width)
+	for X in Width:
+		NMapData.TileData[X] = []
+		NMapData.TileData[X].resize(Height)
+		for Y in Height:
+			NMapData.TileData[X][Y] = randi() % 2
+	Main.StartMap(NMapData)#load(\"res://Res/Maps/Map_0.tres\"))
 "
 
 [node name="Control" type="Control"]

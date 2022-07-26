@@ -18,10 +18,16 @@ _global_script_classes=[ {
 "class": "MapData",
 "language": "GDScript",
 "path": "res://Script/Res/MapData.gd"
+}, {
+"base": "Node2D",
+"class": "Tower",
+"language": "GDScript",
+"path": "res://Script/Class/Tower.gd"
 } ]
 _global_script_class_icons={
 "Map": "",
-"MapData": ""
+"MapData": "",
+"Tower": ""
 }
 
 [application]
